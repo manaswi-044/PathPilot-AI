@@ -1,0 +1,14 @@
+{
+    "example_career_response": {
+      "career": "Full Stack Developer",
+      "duration": "6 Months",
+      "difficulty": "Intermediate",
+      "estimated_salary": "$70k - $120k",
+      "phases": [],
+      "skills_to_learn": ["Next.js", "FastAPI", "PostgreSQL"],
+      "projects": ["Personal Portfolio", "E-commerce API"],
+      "courses": ["Full Stack Open"],
+      "certifications": ["AWS Certified Developer"],
+      "internships": ["Summer Tech Internship"]
+    }
+  }

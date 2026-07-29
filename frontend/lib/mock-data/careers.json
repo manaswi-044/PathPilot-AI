@@ -1,0 +1,763 @@
+[
+    {
+      "id": "ai-engineer",
+      "name": "AI Engineer",
+      "domain": "AI/ML",
+      "description": "Architects and deploys artificial intelligence models and systems to solve complex problems and automate decision-making processes.",
+      "averageSalary": { "min": 120, "max": 280, "currency": "$" },
+      "demandScore": 98,
+      "growthRate": 35,
+      "difficulty": "Advanced",
+      "learningDuration": "12-18 Months",
+      "requiredSkills": ["Python", "PyTorch", "LLMs", "NLP", "Cloud Computing", "Vector DBs"],
+      "responsibilities": [
+        "Develop and fine-tune Large Language Models (LLMs)",
+        "Deploy scalable AI microservices in cloud environments",
+        "Optimize model inference for real-time edge devices",
+        "Implement RAG (Retrieval-Augmented Generation) pipelines"
+      ],
+      "industries": ["FinTech", "Healthcare", "Automotive", "SaaS", "Defense"],
+      "certifications": ["AWS Machine Learning Specialty", "Google Professional ML Engineer", "NVIDIA Deep Learning Cert"],
+      "techStack": ["Python", "TensorFlow", "FastAPI", "Docker", "Kubernetes", "Pinecone"],
+      "roadmap": [
+        { "title": "Mathematics & Linear Algebra", "duration": "3 Months" },
+        { "title": "Deep Learning Fundamentals", "duration": "4 Months" },
+        { "title": "LLM Orchestration & Fine-tuning", "duration": "3 Months" },
+        { "title": "MLOps & Deployment", "duration": "2 Months" }
+      ],
+      "projects": [
+        { "title": "Personal RAG Agent", "description": "Build a chatbot that queries private documents using LangChain." },
+        { "title": "Real-time Object Detection", "description": "Detect and track objects in video streams using YOLOv8." }
+      ],
+      "stats": { "growth": "35%", "openings": "18k+", "success": "88%", "aiMatch": "Extremely High" },
+      "growthData": [15, 30, 48, 65, 98],
+      "topCompanies": [{ "name": "OpenAI" }, { "name": "Google DeepMind" }, { "name": "Anthropic" }, { "name": "NVIDIA" }],
+      "dayInLife": [
+        { "time": "09:00 AM", "task": "Model Performance Audit", "description": "Checking loss curves and inference latency for the latest fine-tuned model." },
+        { "time": "02:00 PM", "task": "Architecture Deep Dive", "description": "Brainstorming a hybrid RAG approach with the data engineering team." }
+      ],
+      "futureScope": "Massive transition from standalone models to autonomous AI agents integrated into every OS."
+    },
+    {
+      "id": "frontend-developer",
+      "name": "Frontend Developer",
+      "domain": "Development",
+      "description": "Crafts high-performance, visually stunning, and accessible user interfaces for modern web applications.",
+      "averageSalary": { "min": 85, "max": 190, "currency": "$" },
+      "demandScore": 92,
+      "growthRate": 18,
+      "difficulty": "Intermediate",
+      "learningDuration": "6-8 Months",
+      "requiredSkills": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+      "responsibilities": [
+        "Develop responsive and interactive UI components",
+        "Optimize web vitals and overall site performance",
+        "Integrate REST and GraphQL APIs",
+        "Implement complex UI animations and transitions"
+      ],
+      "industries": ["E-commerce", "SaaS", "Media", "Digital Agencies"],
+      "certifications": ["Meta Front-End Professional", "Vercel Next.js Specialist"],
+      "techStack": ["TypeScript", "Next.js 15", "Radix UI", "Zustand", "Playwright"],
+      "roadmap": [
+        { "title": "Advanced JS & TypeScript", "duration": "2 Months" },
+        { "title": "React & Ecosystem", "duration": "2 Months" },
+        { "title": "Next.js 15 & Server Components", "duration": "2 Months" }
+      ],
+      "projects": [
+        { "title": "AI Dashboard UI", "description": "A glassmorphic dashboard with real-time data streaming." },
+        { "title": "Interactive Portfolio", "description": "3D portfolio using Three.js and Framer Motion." }
+      ],
+      "stats": { "growth": "18%", "openings": "50k+", "success": "94%", "aiMatch": "Very High" },
+      "growthData": [10, 22, 35, 42, 55],
+      "topCompanies": [{ "name": "Vercel" }, { "name": "Airbnb" }, { "name": "Stripe" }, { "name": "Meta" }],
+      "dayInLife": [
+        { "time": "10:30 AM", "task": "Design Review", "description": "Discussing Figma prototypes and component feasibility with UX designers." },
+        { "time": "04:00 PM", "task": "Feature Sprints", "description": "Building a new server-side filtering system using Next.js actions." }
+      ],
+      "futureScope": "Convergence of WebGL/3D and AI-driven UI generation for hyper-personalized experiences."
+    },
+    {
+      "id": "cybersecurity-engineer",
+      "name": "Cybersecurity Engineer",
+      "domain": "Security",
+      "description": "Protects organizational networks and data from cyber attacks by designing secure systems and responding to breaches.",
+      "averageSalary": { "min": 110, "max": 240, "currency": "$" },
+      "demandScore": 96,
+      "growthRate": 31,
+      "difficulty": "Advanced",
+      "learningDuration": "12-14 Months",
+      "requiredSkills": ["Network Security", "Ethical Hacking", "Cryptography", "Python", "SIEM"],
+      "responsibilities": [
+        "Perform vulnerability assessments and penetration testing",
+        "Design and monitor secure network architectures",
+        "Develop automated incident response protocols",
+        "Ensure compliance with global security standards (SOC2, GDPR)"
+      ],
+      "industries": ["Banking", "Government", "Tech", "Healthcare"],
+      "certifications": ["CISSP", "CompTIA Security+", "CEH", "OSCP"],
+      "techStack": ["Kali Linux", "Wireshark", "Metasploit", "Splunk", "AWS Security Hub"],
+      "roadmap": [
+        { "title": "Networking & OS Basics", "duration": "3 Months" },
+        { "title": "Security Fundamentals", "duration": "3 Months" },
+        { "title": "Ethical Hacking Lab", "duration": "4 Months" }
+      ],
+      "projects": [
+        { "title": "Intrusion Detection System", "description": "A Python tool to detect unauthorized access in real-time." },
+        { "title": "Vulnerability Scanner", "description": "Automated script to identify common web security flaws." }
+      ],
+      "stats": { "growth": "31%", "openings": "12k+", "success": "85%", "aiMatch": "High" },
+      "growthData": [20, 40, 55, 75, 95],
+      "topCompanies": [{ "name": "CrowdStrike" }, { "name": "Palo Alto Networks" }, { "name": "Cloudflare" }],
+      "dayInLife": [
+        { "time": "08:00 AM", "task": "Threat Intel Review", "description": "Checking global breach news and potential impact on our infrastructure." },
+        { "time": "01:00 PM", "task": "Penetration Testing", "description": "Simulating an SQL injection attack on the staging environment." }
+      ],
+      "futureScope": "Transition to AI-driven threat hunting and zero-trust cloud architectures."
+    },
+    {
+      "id": "machine-learning-engineer",
+      "name": "Machine Learning Engineer",
+      "domain": "AI/ML",
+      "description": "Designs and implements production-grade ML models and builds data pipelines for scalable AI solutions.",
+      "averageSalary": { "min": 115, "max": 260, "currency": "$" },
+      "demandScore": 97,
+      "growthRate": 33,
+      "difficulty": "Advanced",
+      "learningDuration": "10-14 Months",
+      "requiredSkills": ["Scikit-Learn", "Pytorch", "MLOps", "SQL", "Pandas"],
+      "responsibilities": [
+        "Train and optimize supervised/unsupervised models",
+        "Implement feature engineering pipelines",
+        "Collaborate with Data Scientists on model architecture",
+        "Manage model versioning and experiments"
+      ],
+      "industries": ["AdTech", "SaaS", "Logistics", "Retail"],
+      "certifications": ["Google Cloud Professional ML Engineer", "TensorFlow Developer"],
+      "techStack": ["Kubeflow", "MLFlow", "DVC", "Python", "Airflow"],
+      "roadmap": [
+        { "title": "Statistics & Probability", "duration": "2 Months" },
+        { "title": "Classical ML Algorithms", "duration": "3 Months" },
+        { "title": "Production ML (MLOps)", "duration": "4 Months" }
+      ],
+      "projects": [
+        { "title": "Churn Prediction Model", "description": "Predicting customer attrition for a subscription service." },
+        { "title": "Recommendation Engine", "description": "Collaborative filtering system for an e-commerce platform." }
+      ],
+      "stats": { "growth": "33%", "openings": "20k+", "success": "90%", "aiMatch": "High" },
+      "growthData": [15, 35, 50, 70, 92],
+      "topCompanies": [{ "name": "Netflix" }, { "name": "Amazon" }, { "name": "Tesla" }],
+      "dayInLife": [
+        { "time": "11:00 AM", "task": "Model Retraining", "description": "Analyzing data drift in the recommendation pipeline." },
+        { "time": "03:00 PM", "task": "Feature Engineering", "description": "Extracting new temporal features from the user clickstream." }
+      ],
+      "futureScope": "Shift toward 'TinyML' and real-time on-device learning models."
+    },
+    {
+      "id": "backend-developer",
+      "name": "Backend Developer",
+      "domain": "Development",
+      "description": "Architects the server-side logic, database management, and API integrations that power web and mobile apps.",
+      "averageSalary": { "min": 90, "max": 200, "currency": "$" },
+      "demandScore": 94,
+      "growthRate": 20,
+      "difficulty": "Intermediate",
+      "learningDuration": "8-10 Months",
+      "requiredSkills": ["Node.js", "Go", "PostgreSQL", "Redis", "Microservices"],
+      "responsibilities": [
+        "Design and maintain scalable API architectures",
+        "Optimize database queries and data structures",
+        "Handle server-side security and authentication",
+        "Implement asynchronous messaging and queues"
+      ],
+      "industries": ["FinTech", "Social Media", "Gaming"],
+      "certifications": ["AWS Certified Developer", "MongoDB Certified Professional"],
+      "techStack": ["Node.js", "Go", "Kubernetes", "gRPC", "Kafka"],
+      "roadmap": [
+        { "title": "Server Logic & HTTP", "duration": "2 Months" },
+        { "title": "Database Design & SQL", "duration": "2 Months" },
+        { "title": "System Design & Scaling", "duration": "4 Months" }
+      ],
+      "projects": [
+        { "title": "Real-time Chat Engine", "description": "Scaling a WebSocket-based messaging system." },
+        { "title": "Payment Gateway Integration", "description": "Building a secure transaction processing service." }
+      ],
+      "stats": { "growth": "20%", "openings": "60k+", "success": "91%", "aiMatch": "High" },
+      "growthData": [10, 20, 38, 55, 72],
+      "topCompanies": [{ "name": "Uber" }, { "name": "PayPal" }, { "name": "Twitch" }],
+      "dayInLife": [
+        { "time": "10:00 AM", "task": "DB Optimization", "description": "Analyzing slow queries in the production Postgres cluster." },
+        { "time": "02:00 PM", "task": "API Design", "description": "Drafting Protobuf definitions for a new microservice." }
+      ],
+      "futureScope": "Expansion of serverless computing and edge-based backend logic."
+    },
+    {
+      "id": "fullstack-developer",
+      "name": "Full Stack Developer",
+      "domain": "Development",
+      "description": "Versatile engineers who bridge the gap between frontend and backend, managing entire application lifecycles.",
+      "averageSalary": { "min": 95, "max": 210, "currency": "$" },
+      "demandScore": 95,
+      "growthRate": 22,
+      "difficulty": "Intermediate",
+      "learningDuration": "10-12 Months",
+      "requiredSkills": ["React", "Node.js", "SQL/NoSQL", "Docker", "Next.js"],
+      "responsibilities": [
+        "Build end-to-end features from UI to Database",
+        "Manage CI/CD pipelines and deployment",
+        "Design schemas and client-side state management",
+        "Mentor junior developers across the stack"
+      ],
+      "industries": ["Startups", "Enterprise Software", "Agencies"],
+      "certifications": ["Full Stack Open Cert", "AWS Certified Cloud Practitioner"],
+      "techStack": ["React", "Node.js", "PostgreSQL", "Tailwind", "GitHub Actions"],
+      "roadmap": [
+        { "title": "Frontend Mastery", "duration": "3 Months" },
+        { "title": "Backend Mastery", "duration": "3 Months" },
+        { "title": "Cloud & DevOps", "duration": "4 Months" }
+      ],
+      "projects": [
+        { "title": "E-learning Platform", "description": "Complete LMS with video streaming and payments." },
+        { "title": "Trello Clone", "description": "Kanban board with real-time drag-and-drop sync." }
+      ],
+      "stats": { "growth": "22%", "openings": "85k+", "success": "95%", "aiMatch": "High" },
+      "growthData": [12, 28, 45, 65, 88],
+      "topCompanies": [{ "name": "Shopify" }, { "name": "Slack" }, { "name": "Spotify" }],
+      "dayInLife": [
+        { "time": "09:30 AM", "task": "Full Stack Debugging", "description": "Traced a frontend bug down to a race condition in the API." },
+        { "time": "03:00 PM", "task": "Feature Launch", "description": "Pushing a new user onboarding flow to production." }
+      ],
+      "futureScope": "Highly automated development with AI coding assistants enhancing speed."
+    },
+    {
+      "id": "cloud-engineer",
+      "name": "Cloud Engineer",
+      "domain": "Cloud",
+      "description": "Focuses on the design, planning, and management of cloud infrastructure to ensure high availability and scalability.",
+      "averageSalary": { "min": 105, "max": 230, "currency": "$" },
+      "demandScore": 95,
+      "growthRate": 28,
+      "difficulty": "Advanced",
+      "learningDuration": "9-12 Months",
+      "requiredSkills": ["AWS/Azure", "Terraform", "Networking", "IAM", "Kubernetes"],
+      "responsibilities": [
+        "Automate infrastructure with code (IaC)",
+        "Manage cloud cost and usage optimization",
+        "Design multi-region disaster recovery plans",
+        "Ensure cloud security and compliance"
+      ],
+      "industries": ["Enterprise Tech", "Government", "Telecom"],
+      "certifications": ["AWS Solutions Architect", "Azure Solutions Architect"],
+      "techStack": ["Terraform", "AWS", "Docker", "Helm", "CloudWatch"],
+      "roadmap": [
+        { "title": "Networking Basics", "duration": "2 Months" },
+        { "title": "Cloud Providers (AWS/Azure)", "duration": "3 Months" },
+        { "title": "Infrastructure as Code", "duration": "4 Months" }
+      ],
+      "projects": [
+        { "title": "Multi-Cloud Migration", "description": "Migrating on-prem servers to a hybrid cloud setup." },
+        { "title": "Auto-scaling Web Farm", "description": "Building a zero-downtime scalable web cluster." }
+      ],
+      "stats": { "growth": "28%", "openings": "30k+", "success": "87%", "aiMatch": "High" },
+      "growthData": [15, 32, 50, 68, 85],
+      "topCompanies": [{ "name": "Amazon Web Services" }, { "name": "Microsoft" }, { "name": "Rackspace" }],
+      "dayInLife": [
+        { "time": "10:00 AM", "task": "Terraform Review", "description": "Updating infra definitions for the new staging region." },
+        { "time": "02:00 PM", "task": "Cost Audit", "description": "Cleaning up unused S3 buckets and EBS volumes." }
+      ],
+      "futureScope": "Serverless-first architectures and AI-optimized cloud resources."
+    },
+    {
+      "id": "devops-engineer",
+      "name": "DevOps Engineer",
+      "domain": "Cloud",
+      "description": "The bridge between development and operations, focusing on CI/CD automation, monitoring, and stability.",
+      "averageSalary": { "min": 110, "max": 250, "currency": "$" },
+      "demandScore": 96,
+      "growthRate": 25,
+      "difficulty": "Advanced",
+      "learningDuration": "10-14 Months",
+      "requiredSkills": ["CI/CD", "Docker", "Jenkins", "Linux", "Monitoring"],
+      "responsibilities": [
+        "Build and maintain automated deployment pipelines",
+        "Monitor system reliability and performance",
+        "Optimize developer workflows and local setups",
+        "Implement automated testing into the pipeline"
+      ],
+      "industries": ["FinTech", "HealthTech", "Logistics"],
+      "certifications": ["CKA (Certified Kubernetes Admin)", "HashiCorp Terraform Associate"],
+      "techStack": ["Jenkins", "Prometheus", "Grafana", "Kubernetes", "Ansible"],
+      "roadmap": [
+        { "title": "Linux & Scripting", "duration": "3 Months" },
+        { "title": "Containers & CI/CD", "duration": "4 Months" },
+        { "title": "Monitoring & SRE Basics", "duration": "4 Months" }
+      ],
+      "projects": [
+        { "title": "Automated Canary Deployments", "description": "Implementing safe rollouts for high-traffic apps." },
+        { "title": "Log Aggregation System", "description": "Centralizing logs for 50+ microservices." }
+      ],
+      "stats": { "growth": "25%", "openings": "25k+", "success": "89%", "aiMatch": "High" },
+      "growthData": [10, 25, 40, 60, 80],
+      "topCompanies": [{ "name": "HashiCorp" }, { "name": "Datadog" }, { "name": "GitLab" }],
+      "dayInLife": [
+        { "time": "09:00 AM", "task": "Pipeline Check", "description": "Investigating a failed deployment build from overnight." },
+        { "time": "02:30 PM", "task": "Monitoring Setup", "description": "Creating new Grafana dashboards for business metrics." }
+      ],
+      "futureScope": "Shift towards 'Platform Engineering' and AI-assisted DevOps (AIOps)."
+    },
+    {
+      "id": "data-scientist",
+      "name": "Data Scientist",
+      "domain": "Data",
+      "description": "Analyzes complex data to help organizations make strategic decisions using statistical modeling and data mining.",
+      "averageSalary": { "min": 110, "max": 240, "currency": "$" },
+      "demandScore": 94,
+      "growthRate": 27,
+      "difficulty": "Advanced",
+      "learningDuration": "12-15 Months",
+      "requiredSkills": ["Python/R", "Statistics", "Data Visualization", "SQL", "Big Data"],
+      "responsibilities": [
+        "Conduct exploratory data analysis (EDA)",
+        "Develop predictive models for business growth",
+        "Communicate data insights to stakeholders",
+        "Apply statistical rigor to experimental results"
+      ],
+      "industries": ["Consulting", "Finance", "Social Media"],
+      "certifications": ["Google Data Analytics Professional", "IBM Data Science Professional"],
+      "techStack": ["Python", "Jupyter", "Tableau", "Pandas", "PySpark"],
+      "roadmap": [
+        { "title": "Math & Stats Deep Dive", "duration": "3 Months" },
+        { "title": "Data Manipulation & SQL", "duration": "3 Months" },
+        { "title": "Storytelling & Visualization", "duration": "4 Months" }
+      ],
+      "projects": [
+        { "title": "Customer Segmentation", "description": "Clustering users based on purchasing behavior." },
+        { "title": "Sales Forecasting", "description": "Predicting quarterly revenue with time-series analysis." }
+      ],
+      "stats": { "growth": "27%", "openings": "35k+", "success": "86%", "aiMatch": "High" },
+      "growthData": [12, 25, 42, 60, 78],
+      "topCompanies": [{ "name": "Meta" }, { "name": "Boston Consulting Group" }, { "name": "LinkedIn" }],
+      "dayInLife": [
+        { "time": "10:30 AM", "task": "A/B Testing Review", "description": "Calculating statistical significance of the new checkout button." },
+        { "time": "04:00 PM", "task": "Stakeholder Meeting", "description": "Presenting data-driven growth opportunities to the CEO." }
+      ],
+      "futureScope": "Increase in 'Citizen Data Science' and automated data cleaning tools."
+    },
+    {
+      "id": "data-analyst",
+      "name": "Data Analyst",
+      "domain": "Data",
+      "description": "Interprets data and turns it into information which can offer ways to improve a business, thus affecting business decisions.",
+      "averageSalary": { "min": 70, "max": 140, "currency": "$" },
+      "demandScore": 91,
+      "growthRate": 25,
+      "difficulty": "Beginner",
+      "learningDuration": "4-6 Months",
+      "requiredSkills": ["SQL", "Excel", "Tableau/PowerBI", "Python Basics", "Reporting"],
+      "responsibilities": [
+        "Extract data from various primary sources",
+        "Clean and prune data to discard irrelevant info",
+        "Build automated reports and dashboards",
+        "Identify patterns and trends in datasets"
+      ],
+      "industries": ["Retail", "Insurance", "Marketing"],
+      "certifications": ["CompTIA Data+", "Microsoft Certified: Power BI Data Analyst"],
+      "techStack": ["SQL", "PowerBI", "Excel", "Tableau", "Google Analytics"],
+      "roadmap": [
+        { "title": "Excel Mastery", "duration": "1 Month" },
+        { "title": "SQL Fundamentals", "duration": "2 Months" },
+        { "title": "Visualization Tools", "duration": "2 Months" }
+      ],
+      "projects": [
+        { "title": "Marketing Performance Dashboard", "description": "Visualizing ROI across 5 different ad platforms." },
+        { "title": "Supply Chain Report", "description": "Optimizing inventory levels based on past trends." }
+      ],
+      "stats": { "growth": "25%", "openings": "100k+", "success": "92%", "aiMatch": "High" },
+      "growthData": [10, 22, 35, 45, 58],
+      "topCompanies": [{ "name": "Walmart" }, { "name": "Accenture" }, { "name": "Adobe" }],
+      "dayInLife": [
+        { "time": "09:00 AM", "task": "Report Generation", "description": "Updating weekly performance sheets for the sales team." },
+        { "time": "01:00 PM", "task": "Data Cleaning", "description": "Handling missing entries in the customer survey database." }
+      ],
+      "futureScope": "Automation of repetitive reporting by AI analytics bots."
+    },
+    {
+      "id": "blockchain-developer",
+      "name": "Blockchain Developer",
+      "domain": "Development",
+      "description": "Specializes in developing and implementing architecture and solutions using blockchain technology, such as smart contracts and dApps.",
+      "averageSalary": { "min": 110, "max": 270, "currency": "$" },
+      "demandScore": 88,
+      "growthRate": 40,
+      "difficulty": "Advanced",
+      "learningDuration": "10-14 Months",
+      "requiredSkills": ["Solidity", "Rust", "Web3.js", "Ethereum", "Cryptography"],
+      "responsibilities": [
+        "Develop secure and gas-efficient smart contracts",
+        "Build decentralized applications (dApps)",
+        "Implement blockchain protocols and consensus",
+        "Audit code for security vulnerabilities"
+      ],
+      "industries": ["Finance", "Supply Chain", "Gaming"],
+      "certifications": ["Certified Blockchain Developer (Ethereum)", "ConsenSys Academy"],
+      "techStack": ["Solidity", "Hardhat", "Foundry", "Ethers.js", "The Graph"],
+      "roadmap": [
+        { "title": "Web3 Fundamentals", "duration": "2 Months" },
+        { "title": "Smart Contract Programming", "duration": "4 Months" },
+        { "title": "dApp Architecture", "duration": "4 Months" }
+      ],
+      "projects": [
+        { "title": "DeFi Exchange", "description": "Building a simple automated market maker (AMM)." },
+        { "title": "NFT Marketplace", "description": "A full dApp for minting and trading digital assets." }
+      ],
+      "stats": { "growth": "40%", "openings": "8k+", "success": "82%", "aiMatch": "Medium" },
+      "growthData": [20, 50, 70, 85, 110],
+      "topCompanies": [{ "name": "Coinbase" }, { "name": "Chainlink" }, { "name": "Polygon" }],
+      "dayInLife": [
+        { "time": "11:00 AM", "task": "Security Audit", "description": "Checking a new smart contract for reentrancy attacks." },
+        { "time": "04:00 PM", "task": "Integration", "description": "Connecting the frontend to the smart contract via Wagmi." }
+      ],
+      "futureScope": "Integration of ZK-proofs and institutional adoption of private blockchains."
+    },
+    {
+      "id": "android-developer",
+      "name": "Android Developer",
+      "domain": "Development",
+      "description": "Develops applications for the Android operating system using Kotlin or Java, focusing on performance and material design.",
+      "averageSalary": { "min": 80, "max": 170, "currency": "$" },
+      "demandScore": 90,
+      "growthRate": 12,
+      "difficulty": "Intermediate",
+      "learningDuration": "6-9 Months",
+      "requiredSkills": ["Kotlin", "Android Jetpack", "Coroutines", "MVVM", "Retrofit"],
+      "responsibilities": [
+        "Design and build advanced applications for Android",
+        "Collaborate with cross-functional teams to define features",
+        "Unit-test code for robustness and usability",
+        "Fix bugs and improve application performance"
+      ],
+      "industries": ["Entertainment", "Tech", "Banking"],
+      "certifications": ["Google Associate Android Developer"],
+      "techStack": ["Kotlin", "Android Studio", "Firebase", "Dagger Hilt", "Compose"],
+      "roadmap": [
+        { "title": "Kotlin Mastery", "duration": "2 Months" },
+        { "title": "Android Layouts & Jetpack", "duration": "3 Months" },
+        { "title": "Architecture & Advanced UI", "duration": "3 Months" }
+      ],
+      "projects": [
+        { "title": "Weather App", "description": "A sleek app using OpenWeather API and Jetpack Compose." },
+        { "title": "Fitness Tracker", "description": "Utilizing sensors and local DB for workout logging." }
+      ],
+      "stats": { "growth": "12%", "openings": "40k+", "success": "93%", "aiMatch": "High" },
+      "growthData": [5, 10, 15, 20, 25],
+      "topCompanies": [{ "name": "Samsung" }, { "name": "Google" }, { "name": "Delivery Hero" }],
+      "dayInLife": [
+        { "time": "10:00 AM", "task": "UI Polish", "description": "Tweaking the animation curves on the new home screen." },
+        { "time": "02:00 PM", "task": "API Sync", "description": "Integrating the new push notification service via Firebase." }
+      ],
+      "futureScope": "Focus on foldable devices and multi-platform Kotlin (KMP)."
+    },
+    {
+      "id": "game-developer",
+      "name": "Game Developer",
+      "domain": "Development",
+      "description": "Creates immersive interactive experiences, focusing on game mechanics, physics, and rendering.",
+      "averageSalary": { "min": 75, "max": 160, "currency": "$" },
+      "demandScore": 85,
+      "growthRate": 15,
+      "difficulty": "Intermediate",
+      "learningDuration": "10-14 Months",
+      "requiredSkills": ["C#", "Unity", "Unreal Engine", "C++", "3D Math"],
+      "responsibilities": [
+        "Implement game logic and mechanics",
+        "Optimize performance for console and PC",
+        "Integrate audio, visuals, and UI into the game engine",
+        "Develop AI behaviors for NPCs"
+      ],
+      "industries": ["Gaming", "Education", "Simulations"],
+      "certifications": ["Unity Certified User", "Unreal Engine Professional"],
+      "techStack": ["Unity", "Unreal Engine 5", "Blender", "C++", "DirectX"],
+      "roadmap": [
+        { "title": "C# or C++ Programming", "duration": "3 Months" },
+        { "title": "Engine Fundamentals (Unity/UE)", "duration": "4 Months" },
+        { "title": "Asset & Logic Integration", "duration": "4 Months" }
+      ],
+      "projects": [
+        { "title": "First-Person Shooter", "description": "A basic arena shooter with multiplayer lobby." },
+        { "title": "Mobile Puzzle Game", "description": "Casual game with monetization integration." }
+      ],
+      "stats": { "growth": "15%", "openings": "10k+", "success": "80%", "aiMatch": "Medium" },
+      "growthData": [8, 15, 25, 32, 45],
+      "topCompanies": [{ "name": "Ubisoft" }, { "name": "Electronic Arts" }, { "name": "Epic Games" }],
+      "dayInLife": [
+        { "time": "11:00 AM", "task": "Physics Debugging", "description": "Fixing a bug where players clipped through the floor." },
+        { "time": "04:00 PM", "task": "Playtesting", "description": "Gathering feedback on the difficulty of Level 3." }
+      ],
+      "futureScope": "AI-generated game assets and cloud-streaming gaming platforms."
+    },
+    {
+      "id": "embedded-engineer",
+      "name": "Embedded Engineer",
+      "domain": "Development",
+      "description": "Specializes in the software that runs on hardware devices like microcontrollers, IoT devices, and automotive controllers.",
+      "averageSalary": { "min": 90, "max": 180, "currency": "$" },
+      "demandScore": 89,
+      "growthRate": 10,
+      "difficulty": "Advanced",
+      "learningDuration": "12-15 Months",
+      "requiredSkills": ["C/C++", "RTOS", "Microcontrollers", "PCB Design", "SPI/I2C"],
+      "responsibilities": [
+        "Write firmware for hardware peripherals",
+        "Optimize code for low power consumption",
+        "Debug hardware using oscilloscopes and logic analyzers",
+        "Implement communication protocols"
+      ],
+      "industries": ["Robotics", "Automotive", "Medical Devices"],
+      "certifications": ["ARM Certified Engineer"],
+      "techStack": ["STM32", "Arduino", "ESP32", "FreeRTOS", "Bare-metal C"],
+      "roadmap": [
+        { "title": "C for Embedded", "duration": "3 Months" },
+        { "title": "Microcontroller Peripherals", "duration": "4 Months" },
+        { "title": "Real-time Operating Systems", "duration": "4 Months" }
+      ],
+      "projects": [
+        { "title": "Smart Thermostat", "description": "Low-power WiFi connected temperature controller." },
+        { "title": "Droning Firmware", "description": "PID control system for a quadcopter." }
+      ],
+      "stats": { "growth": "10%", "openings": "15k+", "success": "88%", "aiMatch": "Medium" },
+      "growthData": [5, 12, 18, 22, 30],
+      "topCompanies": [{ "name": "Bosch" }, { "name": "Intel" }, { "name": "Tesla" }],
+      "dayInLife": [
+        { "time": "09:00 AM", "task": "Hardware Debug", "description": "Using a logic analyzer to trace an I2C timing issue." },
+        { "time": "02:00 PM", "task": "Firmware Patching", "description": "Updating the power management routine for the v2 prototype." }
+      ],
+      "futureScope": "Edge AI on microcontrollers and widespread IoT ecosystem expansion."
+    },
+    {
+      "id": "iot-engineer",
+      "name": "IoT Engineer",
+      "domain": "Development",
+      "description": "Develops systems that connect physical objects to the internet, managing data collection and device communication.",
+      "averageSalary": { "min": 85, "max": 175, "currency": "$" },
+      "demandScore": 87,
+      "growthRate": 20,
+      "difficulty": "Intermediate",
+      "learningDuration": "9-12 Months",
+      "requiredSkills": ["MQTT", "Python", "Cloud Integration", "Sensors", "Networking"],
+      "responsibilities": [
+        "Design end-to-end IoT architectures",
+        "Integrate sensors with cloud platforms",
+        "Develop mobile/web interfaces for device control",
+        "Manage device fleets and OTA updates"
+      ],
+      "industries": ["Smart Home", "Agriculture", "Industrial 4.0"],
+      "certifications": ["AWS Certified IoT Specialty"],
+      "techStack": ["Raspberry Pi", "AWS IoT Core", "Node-RED", "MQTT", "Python"],
+      "roadmap": [
+        { "title": "Networking & Protocols", "duration": "2 Months" },
+        { "title": "Hardware Interfacing", "duration": "3 Months" },
+        { "title": "IoT Cloud Platforms", "duration": "4 Months" }
+      ],
+      "projects": [
+        { "title": "Smart Garden", "description": "Automated plant watering based on soil moisture data." },
+        { "title": "Industrial Monitoring", "description": "Dashboard for tracking machine vibration and heat." }
+      ],
+      "stats": { "growth": "20%", "openings": "18k+", "success": "85%", "aiMatch": "Medium" },
+      "growthData": [10, 25, 38, 48, 60],
+      "topCompanies": [{ "name": "Siemens" }, { "name": "Cisco" }, { "name": "Philips" }],
+      "dayInLife": [
+        { "time": "10:00 AM", "task": "Cloud Sync", "description": "Verifying that sensor payloads are correctly mapped in AWS IoT." },
+        { "time": "03:00 PM", "task": "Mobile Testing", "description": "Testing the remote toggle function for the smart lighting system." }
+      ],
+      "futureScope": "5G-enabled ultra-low latency IoT and ubiquitous smart cities."
+    },
+    {
+      "id": "ar-vr-developer",
+      "name": "AR/VR Developer",
+      "domain": "Development",
+      "description": "Develops immersive augmented and virtual reality experiences for gaming, training, and remote collaboration.",
+      "averageSalary": { "min": 90, "max": 190, "currency": "$" },
+      "demandScore": 82,
+      "growthRate": 45,
+      "difficulty": "Advanced",
+      "learningDuration": "10-14 Months",
+      "requiredSkills": ["Unity", "C#", "Computer Vision", "3D Design", "XR SDKs"],
+      "responsibilities": [
+        "Create 3D immersive environments",
+        "Optimize spatial rendering for VR headsets",
+        "Implement gesture and gaze-based interactions",
+        "Integrate AR overlays into real-world video"
+      ],
+      "industries": ["Gaming", "Real Estate", "Surgery Training"],
+      "certifications": ["Meta Spark Creator", "Unity Certified XR Developer"],
+      "techStack": ["Unity XR", "ARCore", "Oculus SDK", "Blender", "C#"],
+      "roadmap": [
+        { "title": "3D Modeling Basics", "duration": "2 Months" },
+        { "title": "Game Engine (Unity/UE)", "duration": "4 Months" },
+        { "title": "XR Interaction Design", "duration": "4 Months" }
+      ],
+      "projects": [
+        { "title": "Virtual Museum Tour", "description": "Interactive walk-through for Meta Quest." },
+        { "title": "AR Interior Design", "description": "App to place virtual furniture in your room." }
+      ],
+      "stats": { "growth": "45%", "openings": "5k+", "success": "78%", "aiMatch": "Low" },
+      "growthData": [15, 40, 65, 85, 120],
+      "topCompanies": [{ "name": "Meta Reality Labs" }, { "name": "Apple" }, { "name": "Magic Leap" }],
+      "dayInLife": [
+        { "time": "11:00 AM", "task": "Spatial Testing", "description": "Testing hand-tracking responsiveness in the new build." },
+        { "time": "03:00 PM", "task": "Asset Optimization", "description": "Reducing polygon count of 3D models for better mobile performance." }
+      ],
+      "futureScope": "Introduction of lighter glasses and 'Spatial Computing' replacing standard monitors."
+    },
+    {
+      "id": "ui-ux-designer",
+      "name": "UI/UX Designer",
+      "domain": "Design",
+      "description": "Focuses on the entire user journey, ensuring products are intuitive, accessible, and visually appealing.",
+      "averageSalary": { "min": 70, "max": 150, "currency": "$" },
+      "demandScore": 93,
+      "growthRate": 15,
+      "difficulty": "Intermediate",
+      "learningDuration": "6-8 Months",
+      "requiredSkills": ["Figma", "User Research", "Prototyping", "Wireframing", "Accessibility"],
+      "responsibilities": [
+        "Create low and high-fidelity wireframes",
+        "Conduct user interviews and usability testing",
+        "Design design systems and style guides",
+        "Collaborate with developers on visual handoffs"
+      ],
+      "industries": ["SaaS", "Digital Products", "Mobile Apps"],
+      "certifications": ["Google UX Design Professional Certificate", "Interaction Design Foundation"],
+      "techStack": ["Figma", "Adobe XD", "Principle", "Miro", "Lottie"],
+      "roadmap": [
+        { "title": "Visual Design Principles", "duration": "2 Months" },
+        { "title": "UX Research Methods", "duration": "2 Months" },
+        { "title": "Prototyping & Systems", "duration": "3 Months" }
+      ],
+      "projects": [
+        { "title": "Neobank App Design", "description": "Complete UI/UX for a modern banking application." },
+        { "title": "Design System for SaaS", "description": "Reusable component library for a large platform." }
+      ],
+      "stats": { "growth": "15%", "openings": "30k+", "success": "90%", "aiMatch": "High" },
+      "growthData": [8, 15, 25, 35, 45],
+      "topCompanies": [{ "name": "Apple" }, { "name": "Airbnb" }, { "name": "Notion" }],
+      "dayInLife": [
+        { "time": "10:00 AM", "task": "Usability Testing", "description": "Observing users navigate the new checkout flow." },
+        { "time": "02:00 PM", "task": "Design Sprints", "description": "Iterating on component variants for the Dark Mode update." }
+      ],
+      "futureScope": "Transition to Generative Design where AI builds layout drafts from prompts."
+    },
+    {
+      "id": "product-manager",
+      "name": "Product Manager",
+      "domain": "Product",
+      "description": "Owns the product vision, strategy, and roadmap, coordinating between business, design, and engineering.",
+      "averageSalary": { "min": 100, "max": 220, "currency": "$" },
+      "demandScore": 92,
+      "growthRate": 18,
+      "difficulty": "Intermediate",
+      "learningDuration": "8-12 Months",
+      "requiredSkills": ["Roadmapping", "Data Analysis", "Leadership", "Agile", "Stakeholder Management"],
+      "responsibilities": [
+        "Define product strategy and market positioning",
+        "Manage the product backlog and prioritize features",
+        "Coordinate cross-functional teams to meet deadlines",
+        "Analyze market trends and competitor moves"
+      ],
+      "industries": ["Tech", "Consulting", "Finance"],
+      "certifications": ["Certified Product Manager (CPM)", "Pragmatic Institute"],
+      "techStack": ["Jira", "Mixpanel", "Productboard", "Confluence", "Figma"],
+      "roadmap": [
+        { "title": "Business & Strategy", "duration": "3 Months" },
+        { "title": "Tech for Non-techies", "duration": "2 Months" },
+        { "title": "Data-driven Decision Making", "duration": "3 Months" }
+      ],
+      "projects": [
+        { "title": "Product Launch", "description": "Taking a feature from concept to $1M ARR." },
+        { "title": "Growth Experiment", "description": "Leading an A/B test that increased retention by 20%." }
+      ],
+      "stats": { "growth": "18%", "openings": "20k+", "success": "85%", "aiMatch": "Medium" },
+      "growthData": [5, 15, 30, 45, 60],
+      "topCompanies": [{ "name": "Google" }, { "name": "Slack" }, { "name": "Intercom" }],
+      "dayInLife": [
+        { "time": "09:00 AM", "task": "Daily Standup", "description": "Unblocking the dev team and clarifying feature requirements." },
+        { "time": "01:00 PM", "task": "Customer Discovery", "description": "Interviewing power users to understand pain points." }
+      ],
+      "futureScope": "Highly data-automated product analysis and AI-driven user feedback synthesis."
+    },
+    {
+      "id": "qa-engineer",
+      "name": "QA Engineer",
+      "domain": "Development",
+      "description": "Ensures software quality through manual and automated testing, identifying bugs before they reach users.",
+      "averageSalary": { "min": 65, "max": 130, "currency": "$" },
+      "demandScore": 88,
+      "growthRate": 10,
+      "difficulty": "Beginner",
+      "learningDuration": "4-6 Months",
+      "requiredSkills": ["Selenium", "Cypress", "Java/JS", "Test Planning", "Bug Tracking"],
+      "responsibilities": [
+        "Develop and execute automated test scripts",
+        "Perform regression and sanity testing",
+        "Log and track bugs in tools like Jira",
+        "Collaborate with devs to improve code quality"
+      ],
+      "industries": ["Tech", "Outsourcing", "E-commerce"],
+      "certifications": ["ISTQB Foundation Level"],
+      "techStack": ["Playwright", "Cypress", "JUnit", "Postman", "Jira"],
+      "roadmap": [
+        { "title": "Testing Fundamentals", "duration": "1 Month" },
+        { "title": "Automation with Selenium", "duration": "2 Months" },
+        { "title": "API Testing", "duration": "2 Months" }
+      ],
+      "projects": [
+        { "title": "Automation Framework", "description": "End-to-end testing suite for an e-commerce site." },
+        { "title": "API Load Testing", "description": "Stress testing a backend with 10k concurrent users." }
+      ],
+      "stats": { "growth": "10%", "openings": "45k+", "success": "94%", "aiMatch": "High" },
+      "growthData": [5, 10, 15, 20, 28],
+      "topCompanies": [{ "name": "Infosys" }, { "name": "ThoughtWorks" }, { "name": "Oracle" }],
+      "dayInLife": [
+        { "time": "10:00 AM", "task": "Test Execution", "description": "Running the daily regression suite for the staging environment." },
+        { "time": "03:00 PM", "task": "Scripting", "description": "Adding automated tests for the new login feature." }
+      ],
+      "futureScope": "Transition to 'Autonomous Testing' where AI generates and runs test cases."
+    },
+    {
+      "id": "site-reliability-engineer",
+      "name": "Site Reliability Engineer",
+      "domain": "Cloud",
+      "description": "Combines software engineering with systems administration to create scalable and highly reliable software systems.",
+      "averageSalary": { "min": 115, "max": 260, "currency": "$" },
+      "demandScore": 95,
+      "growthRate": 25,
+      "difficulty": "Advanced",
+      "learningDuration": "12-15 Months",
+      "requiredSkills": ["Linux", "Go/Python", "Kubernetes", "Observability", "Incident Response"],
+      "responsibilities": [
+        "Manage system uptime and reliability (SLOs/SLIs)",
+        "Automate manual operations tasks",
+        "Coordinate incident response and post-mortems",
+        "Optimize system performance and resource usage"
+      ],
+      "industries": ["SaaS", "Financial Infrastructure", "Cloud Platforms"],
+      "certifications": ["AWS Certified DevOps Engineer", "Google Professional SRE"],
+      "techStack": ["Kubernetes", "Terraform", "Prometheus", "PagerDuty", "Go"],
+      "roadmap": [
+        { "title": "System Administration", "duration": "3 Months" },
+        { "title": "Software Engineering for SRE", "duration": "4 Months" },
+        { "title": "Reliability Engineering Principles", "duration": "4 Months" }
+      ],
+      "projects": [
+        { "title": "Self-healing Infrastructure", "description": "Scripts that restart services based on health checks." },
+        { "title": "Observability Pipeline", "description": "Full-stack monitoring with alerting and tracing." }
+      ],
+      "stats": { "growth": "25%", "openings": "12k+", "success": "87%", "aiMatch": "High" },
+      "growthData": [10, 25, 45, 65, 85],
+      "topCompanies": [{ "name": "Google" }, { "name": "DigitalOcean" }, { "name": "Datadog" }],
+      "dayInLife": [
+        { "time": "08:00 AM", "task": "On-call Handover", "description": "Reviewing alerts and issues from the previous shift." },
+        { "time": "02:00 PM", "task": "Chaos Engineering", "description": "Simulating a network partition to test system resilience." }
+      ],
+      "futureScope": "Widespread use of 'Self-healing AI' managing data center operations."
+    }
+  ]

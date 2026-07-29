@@ -1,0 +1,42 @@
+[
+    {
+      "id": "sch-001",
+      "name": "Reliance Foundation Undergraduate Scholarship",
+      "provider": "Reliance Foundation",
+      "amount": "2,00,000",
+      "deadline": "31 Oct 2024",
+      "state": "National",
+      "gender": "Any",
+      "category": "General",
+      "eligibility": ["Enrolled in 1st year UG", "Min 60% in 12th", "Household income < 15L"],
+      "benefits": ["Financial support", "Alumni network access", "Mentorship"],
+      "requiredDocuments": ["Fee Receipt", "12th Marksheet", "Income Certificate"],
+      "matchScore": 92,
+      "matchReasons": [
+        "Matches your academic performance (9.2 CGPA)",
+        "Open to your current Engineering branch",
+        "Meets income criteria"
+      ],
+      "officialLink": "https://scholarships.reliancefoundation.org"
+    },
+    {
+      "id": "sch-002",
+      "name": "Adobe Women-in-Technology Scholarship",
+      "provider": "Adobe",
+      "amount": "1,50,000",
+      "deadline": "15 Dec 2024",
+      "state": "National",
+      "gender": "Female",
+      "category": "All",
+      "eligibility": ["Female student", "CS or related major", "Outstanding academic record"],
+      "benefits": ["Full tuition coverage", "Adobe Internship interview", "Mentorship"],
+      "requiredDocuments": ["Resume", "Recommendation Letters", "Essay"],
+      "matchScore": 98,
+      "matchReasons": [
+        "Gender-specific match",
+        "Matches your 'AI Engineer' path",
+        "Academic excellence bonus"
+      ],
+      "officialLink": "https://www.adobe.com/scholarships"
+    }
+  ]

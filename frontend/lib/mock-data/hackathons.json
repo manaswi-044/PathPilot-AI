@@ -1,0 +1,36 @@
+[
+    {
+      "id": "hack-001",
+      "name": "EthIndia 2024",
+      "organizer": "Devfolio",
+      "prizePool": "$50,000",
+      "deadline": "2024-11-20T23:59:59Z",
+      "mode": "Offline",
+      "teamSize": "2-4 members",
+      "requiredSkills": ["Solidity", "React", "Ethers.js"],
+      "difficulty": "Advanced",
+      "matchScore": 94,
+      "matchReasons": [
+        "You have strong Blockchain project experience",
+        "Team size matches your preference",
+        "High relevance to your 'Web3 Developer' goal"
+      ]
+    },
+    {
+      "id": "hack-002",
+      "name": "Google Solution Challenge",
+      "organizer": "Google Developers",
+      "prizePool": "$10,000 + Mentorship",
+      "deadline": "2025-01-15T18:30:00Z",
+      "mode": "Online",
+      "teamSize": "1-4 members",
+      "requiredSkills": ["Flutter", "Firebase", "GCP"],
+      "difficulty": "Intermediate",
+      "matchScore": 82,
+      "matchReasons": [
+        "Social impact focus matches your profile",
+        "Flexible team size",
+        "Beginner-friendly mentorship available"
+      ]
+    }
+  ]

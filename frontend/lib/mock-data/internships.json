@@ -1,0 +1,40 @@
+[
+    {
+      "id": "int-001",
+      "role": "Software Engineering Intern",
+      "company": "Google",
+      "location": "Bangalore, India",
+      "isRemote": false,
+      "category": "Fullstack",
+      "duration": "3 Months",
+      "stipend": { "amount": 100000, "currency": "₹", "period": "month" },
+      "requiredSkills": ["Java", "C++", "System Design"],
+      "matchScore": 95,
+      "matchReasons": [
+        "Matches your 'Software Engineer' career goal",
+        "You have 4/5 required skills",
+        "Previous hackathon experience in related tech"
+      ],
+      "missingSkills": ["Distributed Systems"],
+      "applyUrl": "https://careers.google.com"
+    },
+    {
+      "id": "int-002",
+      "role": "Frontend Intern",
+      "company": "Stripe",
+      "location": "Remote",
+      "isRemote": true,
+      "category": "Frontend",
+      "duration": "6 Months",
+      "stipend": { "amount": 4000, "currency": "$", "period": "month" },
+      "requiredSkills": ["React", "TypeScript", "Tailwind"],
+      "matchScore": 88,
+      "matchReasons": [
+        "Top match for your UI/UX skills",
+        "Remote preference compatible",
+        "Strong performance in Next.js projects"
+      ],
+      "missingSkills": ["GraphQL"],
+      "applyUrl": "https://stripe.com/jobs"
+    }
+  ]
