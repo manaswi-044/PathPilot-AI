@@ -1,35 +1,37 @@
-from sqlalchemy import Column, String, Float, Integer, ForeignKey
-from sqlalchemy.dialects.postgresql import UUID
+from sqlalchemy import Column, String, Float, Integer, JSON
 from sqlalchemy.orm import relationship
-import uuid
-from .base import Base, TimestampMixin
+from .base import Base, TimestampMixin, generate_uuid
 from .associations import profile_skills
 
 class Profile(Base, TimestampMixin):
     __tablename__ = "profiles"
 
-    id = Column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)
+    id = generate_uuid()
     user_id = Column(String, unique=True, index=True, nullable=False) # Supabase Auth UID
     full_name = Column(String, nullable=False)
     college = Column(String)
     branch = Column(String)
+    year = Column(Integer, default=1)
     semester = Column(Integer)
     cgpa = Column(Float)
-    study_hours = Column(Integer)
-    commute_time = Column(Integer)
-    learning_style = Column(String)
+    
+    # Lifestyle & Routine
+    study_hours = Column(Integer, default=4)
+    commute_time = Column(Integer, default=30)
+    wake_time = Column(String, default="07:00")
+    sleep_time = Column(String, default="23:00")
+    lifestyle_type = Column(String, default="Day Scholar") # Hosteller, Day Scholar, PG
+    learning_style = Column(String, default="Visual")
+    
+    # Extended Profile Fields
+    coding_experience = Column(String, default="Beginner")
+    subjects = Column(JSON, default=[]) # List of active semester subjects
+    strong_subjects = Column(JSON, default=[])
+    weak_subjects = Column(JSON, default=[])
+    dream_companies = Column(JSON, default=[])
     
     # Relationships
-    career_goals = relationship("CareerGoal", back_populates="profile")
+    career_goals = relationship("CareerGoal", back_populates="profile", cascade="all, delete-orphan")
     skills = relationship("Skill", secondary=profile_skills, back_populates="profiles")
-    roadmaps = relationship("Roadmap", back_populates="profile")
-    progress = relationship("Progress", back_populates="profile")
-
-class Skill(Base, TimestampMixin):
-    __tablename__ = "skills"
-
-    id = Column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)
-    name = Column(String, unique=True, index=True, nullable=False)
-    
-    profiles = relationship("Skill", secondary=profile_skills, back_populates="skills")
-    careers = relationship("Career", secondary=career_skills, back_populates="required_skills")
+    roadmaps = relationship("Roadmap", back_populates="profile", cascade="all, delete-orphan")
+    progress = relationship("Progress", back_populates="profile", cascade="all, delete-orphan")

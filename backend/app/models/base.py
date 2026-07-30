@@ -1,7 +1,6 @@
 import uuid
 from datetime import datetime
-from sqlalchemy import Column, DateTime, Boolean
-from sqlalchemy.dialects.postgresql import UUID
+from sqlalchemy import Column, DateTime, Boolean, String
 from app.database.base import Base
 
 class TimestampMixin:
@@ -10,4 +9,4 @@ class TimestampMixin:
     is_deleted = Column(Boolean, default=False, nullable=False)
 
 def generate_uuid():
-    return Column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)
+    return Column(String(36), primary_key=True, default=lambda: str(uuid.uuid4()))
