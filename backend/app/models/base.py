@@ -2,7 +2,7 @@ import uuid
 from datetime import datetime
 from sqlalchemy import Column, DateTime, Boolean
 from sqlalchemy.dialects.postgresql import UUID
-from app.database.session import Base
+from app.database.base import Base
 
 class TimestampMixin:
     created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
