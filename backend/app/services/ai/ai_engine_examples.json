@@ -1,14 +1,30 @@
 {
-    "example_career_response": {
-      "career": "Full Stack Developer",
-      "duration": "6 Months",
-      "difficulty": "Intermediate",
-      "estimated_salary": "$70k - $120k",
-      "phases": [],
-      "skills_to_learn": ["Next.js", "FastAPI", "PostgreSQL"],
-      "projects": ["Personal Portfolio", "E-commerce API"],
-      "courses": ["Full Stack Open"],
-      "certifications": ["AWS Certified Developer"],
-      "internships": ["Summer Tech Internship"]
-    }
+  "ai_engineer_roadmap": {
+    "career": "AI Engineer",
+    "duration": "8 Months",
+    "difficulty": "Advanced",
+    "estimated_salary": "$110,000 - $160,000",
+    "phases": [
+      {
+        "phase_name": "Mathematics & Python Mastery",
+        "estimated_weeks": 4,
+        "topics": ["Linear Algebra", "Calculus", "NumPy", "Pandas"],
+        "skills": ["Python", "Data Manipulation"],
+        "mini_projects": ["Matrix Calculator", "Data Cleaner Script"],
+        "learning_outcomes": ["Ability to handle tensor operations"],
+        "resources": ["Khan Academy Linear Algebra", "Sentdex Python ML"],
+        "courses": ["Coursera: Math for Machine Learning"],
+        "certifications": ["None"],
+        "interview_preparation": ["Explain Gradient Descent"],
+        "internship_suggestions": ["Data Research Intern"],
+        "weekly_milestones": ["Week 1: Matrices", "Week 4: Pandas Profiling"],
+        "completion_criteria": "Build a data pipeline with zero errors."
+      }
+    ],
+    "skills_to_learn": ["PyTorch", "Transformers", "RAG", "Vector DBs"],
+    "projects": ["LLM PDF Chatbot", "Vision Classifier"],
+    "courses": ["DeepLearning.AI Generative AI"],
+    "certifications": ["AWS Machine Learning Specialty"],
+    "internships": ["NVIDIA Research", "OpenAI Residency"]
   }
+}
