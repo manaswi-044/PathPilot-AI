@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { WelcomeBanner } from '../../components/dashboard/WelcomeBanner';
 import { DashboardHeader } from '../../components/dashboard/DashboardHeader';
-import { StatCard } from '../../components/common/StatCard';
+import { StatCard } from '../../components/dashboard/StatCard';
 import { QuickActionCard } from '../../components/dashboard/QuickActionCard';
 import { ProgressCard } from '../../components/dashboard/ProgressCard';
 import { UpcomingEvents } from '../../components/dashboard/UpcomingEvents';

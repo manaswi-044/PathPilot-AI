@@ -1,13 +1,14 @@
 from fastapi import APIRouter
 from app.api import (
     profile, assessment, roadmap, planner, 
-    career, internships, scholarships, hackathons, skill_gap
+    career, internships, scholarships, hackathons, skill_gap, documents
 )
 
 api_router = APIRouter()
 
 # Member 1 & 2
 api_router.include_router(profile.router, prefix="/profile", tags=["Profile"])
+api_router.include_router(documents.router, prefix="/documents", tags=["Documents"])
 
 # Member 3 (AI Engine calls)
 api_router.include_router(assessment.router, prefix="/assessment", tags=["Assessment"])

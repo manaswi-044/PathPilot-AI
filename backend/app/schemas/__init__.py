@@ -10,3 +10,6 @@ from .progress import ProgressRead
 from .internship import InternshipRead
 from .scholarship import ScholarshipRead
 from .hackathon import HackathonRead
+from .academic_event import AcademicEventRead
+from .timetable_slot import TimetableSlotRead
+from .document import DocumentRead, DocumentParseResult

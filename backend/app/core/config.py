@@ -24,6 +24,7 @@ class Settings(BaseSettings):
 
     # --- INFRASTRUCTURE ---
     DATABASE_URL: str = "sqlite:///./pathpilot.db"
+    DOCUMENT_STORAGE_DIR: str = "./uploaded_documents"
     
     # --- SUPABASE CONFIGURATION ---
     SUPABASE_URL: str = "https://your-project.supabase.co"
