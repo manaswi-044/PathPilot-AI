@@ -11,6 +11,9 @@ from .progress import Progress
 from .internship import Internship
 from .scholarship import Scholarship
 from .hackathon import Hackathon
+from .document import Document
+from .academic_event import AcademicEvent
+from .timetable_slot import TimetableSlot
 
 __all__ = [
     "Base",
@@ -29,4 +32,7 @@ __all__ = [
     "Internship",
     "Scholarship",
     "Hackathon",
+    "Document",
+    "AcademicEvent",
+    "TimetableSlot",
 ]

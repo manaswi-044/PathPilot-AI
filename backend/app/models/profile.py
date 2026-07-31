@@ -35,3 +35,6 @@ class Profile(Base, TimestampMixin):
     skills = relationship("Skill", secondary=profile_skills, back_populates="profiles")
     roadmaps = relationship("Roadmap", back_populates="profile", cascade="all, delete-orphan")
     progress = relationship("Progress", back_populates="profile", cascade="all, delete-orphan")
+    documents = relationship("Document", back_populates="profile", cascade="all, delete-orphan")
+    academic_events = relationship("AcademicEvent", back_populates="profile", cascade="all, delete-orphan")
+    timetable_slots = relationship("TimetableSlot", back_populates="profile", cascade="all, delete-orphan")

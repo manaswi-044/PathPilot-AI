@@ -7,6 +7,7 @@ from .scholarship_service import scholarship_service
 from .hackathon_service import hackathon_service
 from .assessment_service import assessment_service
 from .auth_service import auth_service
+from .document_service import document_service
 
 __all__ = [
     "profile_service",
@@ -17,5 +18,6 @@ __all__ = [
     "scholarship_service",
     "hackathon_service",
     "assessment_service",
-    "auth_service"
+    "auth_service",
+    "document_service"
 ]
